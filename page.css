@@ -11,17 +11,30 @@
     color: blue;
 }
 
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+   margin-right: 100px;
+}
+
+
 .caixa {
     margin-top: -42rem;
     margin-left: -40rem;
     font-size: 2rem;
 }
 .tresimg {
-    display: flex;
+    display: flex;}
 
+.menu{ 
+display: flex;
+justify-content: initial;
 }
-.body {
 
+.home {
+    display:flex;
+    list-style: none;
 }
+
 
 
