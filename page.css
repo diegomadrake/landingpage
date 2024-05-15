@@ -1,40 +1,67 @@
+* {
+    list-style: none;
+}
 
 .secao {
     background-image: url(https://c8.alamy.com/comp/FBXFEC/dr-norman-vincent-peale-statue-outside-of-marble-collegiate-church-FBXFEC.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 0vw;
-    height: 100%;
     padding: 42rem;
-    align-items: flex-start;
-    color: blue;
+    background-size: 100%;
 }
 
-.menu ul {
+.secao h1 {
+    text-align: left;
+}
+
+.div-pai .caixa h1 {
+    text-align: left;
+}
+
+
+.ul-list {
     display: flex;
     justify-content: space-evenly;
-   margin-right: 100px;
+
+}
+.ul-list li a {
+    text-decoration: none;
+    color: black;
+
 }
 
 
-.caixa {
-    margin-top: -42rem;
-    margin-left: -40rem;
-    font-size: 2rem;
+.palestra{ 
+    margin-top: -35rem;
+    margin-left: -20rem;
 }
-.tresimg {
-    display: flex;}
 
-.menu{ 
+
+.img {
+    padding: 12rem;
+}
+
+.tresimg{
 display: flex;
-justify-content: initial;
-}
-
-.home {
-    display:flex;
-    list-style: none;
+justify-content: space-evenly;
 }
 
 
 
+.div-img{
+    width: 15rem;
+    height: 20rem;
+    background-color: white;
+}
+
+
+
+
+.div-img img {
+width: 100%;
+height: 50%;
+}
+
+.div-img2 {
+    padding:50;
+  justify-content: space-evenly;
+}
